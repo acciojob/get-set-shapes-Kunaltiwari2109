@@ -29,13 +29,13 @@ class Square extends Rectangle {
 const rect = new Rectangle(5, 10);
 console.log(rect.width); 
 console.log(rect.height); 
-console.log(rect.getArea()); 
+console.log(rect.area()); 
 
 const squa = new Square(7);
 console.log(squa.width); 
 console.log(squa.height); 
-console.log(squa.getArea()); 
-console.log(squa.getPerimeter());
+console.log(squa.area()); 
+console.log(squa.Perimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
