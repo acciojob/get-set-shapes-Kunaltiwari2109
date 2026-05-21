@@ -12,7 +12,7 @@ class Rectangle {
 	get height(){
 		return this._height;
 	}
- area (){
+ getArea (){
 	 return this._width * this._height;
  }
 }
@@ -21,7 +21,7 @@ class Square extends Rectangle {
 	constructor(side){
 		super(side, side);
 	}
-	perimeter() {
+	getPerimeter() {
 		return 4 * this._width;
 	}
 }
@@ -29,13 +29,13 @@ class Square extends Rectangle {
 const rect = new Rectangle(5, 10);
 console.log(rect.width); 
 console.log(rect.height); 
-console.log(rect.area()); 
+console.log(rect.getArea()); 
 
 const squa = new Square(7);
 console.log(squa.width); 
 console.log(squa.height); 
-console.log(squa.area()); 
-console.log(squa.perimeter());
+console.log(squa.getArea()); 
+console.log(squa.getPerimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
