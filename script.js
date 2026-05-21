@@ -12,6 +12,9 @@ class Rectangle {
 	get height(){
 		return this._height;
 	}
+ area (){
+	 return width * height;
+ }
 }
 
 class Square extends Rectangle {
