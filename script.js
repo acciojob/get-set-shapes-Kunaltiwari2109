@@ -35,7 +35,7 @@ const squa = new Square(7);
 console.log(squa.width); 
 console.log(squa.height); 
 console.log(squa.area()); 
-console.log(squa.Perimeter());
+console.log(squa.perimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
