@@ -27,15 +27,15 @@ class Square extends Rectangle {
 }
 
 const rect = new Rectangle(5, 10);
-console.log(rectangle.width); 
-console.log(rectangle.height); 
-console.log(rectangle.getArea()); 
+console.log(rect.width); 
+console.log(rect.height); 
+console.log(rect.getArea()); 
 
-const sqau = new Square(7);
-console.log(square.width); 
-console.log(square.height); 
-console.log(square.getArea()); 
-console.log(square.getPerimeter());
+const squa = new Square(7);
+console.log(squa.width); 
+console.log(squa.height); 
+console.log(squa.getArea()); 
+console.log(squa.getPerimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
